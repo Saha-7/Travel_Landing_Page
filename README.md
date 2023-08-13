@@ -12,3 +12,9 @@ Techstacks needs to be used :
 - HTML
 - CSS
 - Flexbox & Media Queries
+
+
+## Image of Landing page
+
+![Landing page](https://example.com/image.jpg)
+
