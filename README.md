@@ -16,5 +16,5 @@ Techstacks needs to be used :
 
 ## Image of Landing page
 
-![Landing page](https://example.com/image.jpg)
+![Landing page](https://github.com/Saha-7/Travel_Landing_Page/blob/main/Landing%20page/LandingPageSample.png)
 
