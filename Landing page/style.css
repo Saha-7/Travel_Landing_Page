@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#first{
+    width: auto;
+    height: 100vh;
+    background-image: url('/tg.jpg');
+    background-size: 100% 100%;
+    
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(0,0,0,0.5);  (transparency color) */
+}
+
+.leftmenu{
+    width: 30%;
+    line-height: 100%;
+    float: left;
+}
+
+.leftmenu h4{
+    margin-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rightmenu{
+    width: 70%;
+    height: 100px;
+    float: right;
+}
+
+.rightmenu ul{
+    /* margin-left: 270px; */
+    margin-left: 0; /* Reset margin for better alignment */
+    text-align: right; /* Align menu items to the right */
+    padding-right: 20px; /* Add padding for better spacing */
+}
+.rightmenu ul li{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin: 10px 0;
+    list-style: none;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+    margin-left: 40px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    padding: 10px 0; /* Add padding for vertical alignment */
+}
+
+.rightmenu ul li:hover{
+    color:orangered
+}
+
+.text{
+    width: 100%;
+    margin-top: 10vh;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.text h3{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: yellow;
+    margin-left: 20px;
+}
+
+.text h5{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 20px;
+}
+
+#switch{
+    background-color: blue;
+    margin-left: 10px;
+    border: 2px solid;
+    font-size: 12px;
+    line-height: 40px;
+    width: 120px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+
+#switch:hover{
+    color: darkolivegreen;
+}
+
+
+
+/* Category */
+
+.best-offers {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0; /* Add padding for top and bottom */
+    background-color: rgba(128, 128, 128, 0.547);
+}
+
+.section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(15, 14, 14); /* Add text color */
+}
+
+.features {
+    width: 100%; /* Adjust width */
+    min-height: 400px; /* Minimum height */
+    display: flex;
+    justify-content: space-between;
+    gap: 15px; /* Add gap between flex items */
+    padding: 0 20px; /* Add padding from left and right */
+    margin-bottom: 40px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    background-color: #5cbeec;
+    border: 1px solid #0d0909;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #131112; /* Add text color */
+}
+
+.feature p {
+    font-size: 14px;
+    color: #131112;
+}
+
+
+
+
+
+
+/* Top Selling destinations */
+
+.destinations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 0;
+    background-color: rgb(140, 195, 229); /* Background color */
+}
+
+.section-heading {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.destination {
+    flex: 1 1 calc(33.33% - 30px);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-color: white; /* Background color */
+}
+
+.destination:hover {
+    transform: translateY(-5px);
+}
+
+.destination img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.destination h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 16px;
+    color: #e74c3c;
+}
+
+.days {
+    font-size: 14px;
+    color: #3498db;
+}
+
+
+
+
+
+/* Why Choose Us Section */
+
+.grand_parent{
+    width: auto;
+    height: 500px;
+    background: cyan;
+    color: #fff;
+}
+
+.grand_parent h2{
+    font-size: 20px;
+	padding: 20px 0;
+	text-align: center;
+	color: darkred;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.grand_parent p{
+    text-align: center;
+    color: rgb(88, 7, 7);
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+.parents{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+}
+
+.child{
+    height: 200px;
+    background:#81ecec;
+    box-shadow: 0 0 20px #085353;
+    flex:1 1 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.child h2{
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.child:first-child{
+    background: #ffbe76;
+}
+
+.child:first-child h2{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.child:last-child{
+    background: #ff7979;
+}
+
+.child:last-child h2{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 768px){
+    .grand_parent{
+        height:auto;
+}
+}
+
+
+/* Subscribe section */
+
+
+.subscribebody{
+    background: #386aeb;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h2{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container .email{
+    height: 50px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.container .email input{
+    height: 100%;
+    width: 450px;
+    padding-left: 50px;
+    font-size: 18px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    border: 2px solid coral;
+}
+
+.container .email .icon{
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.container .email button{
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translate(-50%, -50%);
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid gray;
+    outline: none;
+    background: #286aeb;
+    color: white;
+    transition: 0.3s;
+}
+
+.container .email button:hover{
+    background: #1b3d94;
+}
+
+
+
+
+
+/* Footer Section */
+
+.box{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 768px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
